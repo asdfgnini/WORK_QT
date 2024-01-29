@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>res/btnup.bmp</file>
+        <file>res/find.bmp</file>
+        <file>res/lock.bmp</file>
+    </qresource>
+</RCC>

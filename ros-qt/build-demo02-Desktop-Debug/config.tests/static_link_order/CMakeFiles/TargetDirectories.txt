@@ -1,0 +1,5 @@
+/home/zjt/qt/demo02/build-demo02-Desktop-Debug/config.tests/static_link_order/CMakeFiles/rebuild_cache.dir
+/home/zjt/qt/demo02/build-demo02-Desktop-Debug/config.tests/static_link_order/CMakeFiles/edit_cache.dir
+/home/zjt/qt/demo02/build-demo02-Desktop-Debug/config.tests/static_link_order/CMakeFiles/static_link_order_test.dir
+/home/zjt/qt/demo02/build-demo02-Desktop-Debug/config.tests/static_link_order/CMakeFiles/staticLib.dir
+/home/zjt/qt/demo02/build-demo02-Desktop-Debug/config.tests/static_link_order/CMakeFiles/objLib.dir
