@@ -3,6 +3,7 @@ qt_add_library(worker STATIC
     worker.h
 
 )
+
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)

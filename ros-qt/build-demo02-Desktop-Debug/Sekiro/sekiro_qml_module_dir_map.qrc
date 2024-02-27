@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/Sekiro">/home/zjt/qtfile/demo02/build-Sekiro-Desktop_Qt_6_5_3_GCC_64bit-Debug/Sekiro</file>
+
+  </qresource>
+</RCC>
