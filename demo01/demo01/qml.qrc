@@ -71,5 +71,45 @@
         <file>Image/Window/skin_gray.png</file>
         <file>Image/Window/skin_white.png</file>
         <file>Image/Common/view02.png</file>
+        <file>TaoQuick/Images/arrow-down.png</file>
+        <file>TaoQuick/Images/arrow-left.png</file>
+        <file>TaoQuick/Images/arrow-right.png</file>
+        <file>TaoQuick/Images/arrow-up.png</file>
+        <file>TaoQuick/Images/Check.png</file>
+        <file>TaoQuick/Images/ComboBox_Down.png</file>
+        <file>TaoQuick/Images/ellipsis.png</file>
+        <file>TaoQuick/Images/Expanded.png</file>
+        <file>TaoQuick/Images/Icon_Camera_Offline.png</file>
+        <file>TaoQuick/Images/Icon_Camera_Online.png</file>
+        <file>TaoQuick/Images/last.png</file>
+        <file>TaoQuick/Images/left.png</file>
+        <file>TaoQuick/Images/next.png</file>
+        <file>TaoQuick/Images/particle.png</file>
+        <file>TaoQuick/Images/radio-checked-disabled.png</file>
+        <file>TaoQuick/Images/radio-checked-hover.png</file>
+        <file>TaoQuick/Images/radio-checked-normal.png</file>
+        <file>TaoQuick/Images/radio-unchecked-disabled.png</file>
+        <file>TaoQuick/Images/radio-unchecked-hover.png</file>
+        <file>TaoQuick/Images/radio-unchecked-normal.png</file>
+        <file>TaoQuick/Images/right.png</file>
+        <file>TaoQuick/Images/rotate.png</file>
+        <file>TaoQuick/Images/Search.png</file>
+        <file>TaoQuick/Images/Search_Clear.png</file>
+        <file>TaoQuick/Images/spinner.png</file>
+        <file>TaoQuick/Images/Table_Asc.png</file>
+        <file>TaoQuick/Images/Table_Asc_Hovered.png</file>
+        <file>TaoQuick/Images/Table_Desc.png</file>
+        <file>TaoQuick/Images/Table_Desc_Hovered.png</file>
+        <file>Contents/General/Buttons.qml</file>
+        <file>Contents/General/DataEntrys.qml</file>
+        <file>Contents/General/Drags.qml</file>
+        <file>Contents/General/EdgeTabBar.qml</file>
+        <file>Contents/General/Images.qml</file>
+        <file>Contents/General/Labels.qml</file>
+        <file>Contents/General/ListViewWithTab.qml</file>
+        <file>Contents/General/Miscs.qml</file>
+        <file>Contents/General/RoundRects.qml</file>
+        <file>Contents/General/Shapes.qml</file>
+        <file>Contents/General/Tables.qml</file>
     </qresource>
 </RCC>

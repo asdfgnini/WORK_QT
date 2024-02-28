@@ -44,16 +44,17 @@ ApplicationWindow {
             rightPane.source = rightPane.homeUrl
         }
         onLoadContent: function(path) {
-            rightPane.source = contentsPath + path
+            rightPane.source = "qrc:/Contents/" + path
         }
     }
-    CusButton_Image {
-        btnImgNormal: "qrc:/Image/Common/view02.png"
+
+    CusButton_Red {
+        icon.source: "qrc:/Image/Common/view02.png"
         objectName: "menuBtn"
         anchors {
             left: leftPane.right
             top: leftPane.top
-            topMargin: 5
+            topMargin: 2
         }
         width: 32
         height: 32
@@ -83,8 +84,6 @@ ApplicationWindow {
             bottom: parent.bottom
         }
     }
-
-
 
     Interaction{
         id:interaction

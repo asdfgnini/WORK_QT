@@ -5,7 +5,7 @@ Item {
     id: homeItem
     anchors.centerIn: parent
     CusLabel {
-        text: qsTr("TaoQuick provides a set of controls that can be used to build complete interfaces in Qt Quick.") + trans.transString
+        text: qsTr("TaoQuick provides a set of controls that can be used to build complete interfaces in Qt Quick.")
         horizontalAlignment: Label.AlignHCenter
         verticalAlignment: Label.AlignVCenter
         wrapMode: Label.Wrap

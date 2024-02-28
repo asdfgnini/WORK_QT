@@ -8,10 +8,10 @@ Item {
     }
 
 
-    Component.onCompleted: {
-        view.mousePressed.connect(onMousePressed)
+    // Component.onCompleted: {
+    //     view.mousePressed.connect(onMousePressed)
 
-    }
+    // }
     Component {
         id: brushComp
         Item {
