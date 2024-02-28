@@ -16,10 +16,10 @@ Item {
             objectName: "searchInput"
             anchors {
                 left: parent.left
-                leftMargin: 4
+                // leftMargin: 4
                 verticalCenter: parent.verticalCenter
                 right: parent.right
-                rightMargin: 4
+                // rightMargin: 4
             }
             placeholderText: qsTr("Search")
             onTextChanged: {
@@ -38,6 +38,7 @@ Item {
     ContentModel {
         id: demoModel
     }
+
     Rectangle {
         id: home
         width: parent.width
@@ -53,6 +54,7 @@ Item {
             objectName: "homeBtn"
             backgroundColor: "transparent"
             borderColor: "transparent"
+            textColor: "red"
             width: parent.width
             onClicked: {
                 listView.currentIndex = -1
@@ -107,6 +109,7 @@ Item {
                 text: qsTr(model.name)
                 backgroundColor: "transparent"
                 borderColor: "transparent"
+                textColor: "Red"
                 onClicked: {
                     listView.currentIndex = index
                     loadContent(model.source)

@@ -13,6 +13,7 @@ ApplicationWindow {
     width: 1440
     height: 960
     visible: true //设置可见性
+    //设置背景图片
     CusImage{
         id: bgImg
         source: "qrc:/Image/Window/flower.jpg"
@@ -21,6 +22,7 @@ ApplicationWindow {
         height: parent.height
         opacity: 0.1
     }
+    //计算当前屏幕的刷新率
     CusFPS {
         anchors {
             right: parent.right
@@ -28,7 +30,7 @@ ApplicationWindow {
             rightMargin: 5
         }
     }
-
+    //左边控制栏
     LeftPane {
         id: leftPane
         objectName: "leftPane"
@@ -47,9 +49,9 @@ ApplicationWindow {
             rightPane.source = "qrc:/Contents/" + path
         }
     }
-
-    CusButton_Red {
-        icon.source: "qrc:/Image/Common/view02.png"
+    //控制栏缩进控制
+    CusButton {
+        id:left_controlbtn
         objectName: "menuBtn"
         anchors {
             left: leftPane.right
@@ -58,11 +60,32 @@ ApplicationWindow {
         }
         width: 32
         height: 32
+        background:Rectangle {
+            width:left_controlbtn.width
+            height: left_controlbtn.height
+            color: left_controlbtn.pressed ? CusConfig.controlBorderColor_pressed : (left_controlbtn.hovered ? CusConfig.controlBorderColor_hovered : CusConfig.controlColor)
+            radius: left_controlbtn.width / 2
+            CusImage {
+                source: "qrc:/Image/Button/expand.png"
+                anchors {
+                    right: parent.right
+                    rightMargin: 4
+                    top: parent.top
+                    topMargin: 4
+                }
+                rotation: leftPane.isOpen ? 90 : -90
+                Behavior on rotation {
+                    NumberAnimation {
+                        duration: 200
+                    }
+                }
+            }
+        }
         onClicked: {
             leftPane.isOpen = !leftPane.isOpen
         }
     }
-
+    //左边和右边分隔栏
     Rectangle {
         width: 1
         anchors {
@@ -72,7 +95,7 @@ ApplicationWindow {
         }
         color: CusConfig.controlBorderColor
     }
-
+    //右边展示栏
     RightPane {
         id: rightPane
         objectName: "contentRect"
@@ -84,11 +107,11 @@ ApplicationWindow {
             bottom: parent.bottom
         }
     }
-
+    //C++ 交互接口
     Interaction{
         id:interaction
     }
-
+    //本组件加载时运行任务
     Component.onCompleted: {
         interaction.start_ros()
     }

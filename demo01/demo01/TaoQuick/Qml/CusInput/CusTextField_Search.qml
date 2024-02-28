@@ -7,7 +7,8 @@ CusTextField {
     id: cusSearch
 
     implicitWidth: 240
-    height: CusConfig.fixedHeight
+    // height: CusConfig.fixedHeight
+    height: parent.height
 
     leftPadding: 36
     rightPadding: 30
@@ -37,7 +38,7 @@ CusTextField {
             x: icon.x + icon.width
             color: CusConfig.controlBorderColor
         }
-        CusButton_ImageColorOverlay {
+        CusButton_Image {
             z: 3
             anchors {
                 right: parent.right
@@ -45,7 +46,9 @@ CusTextField {
                 verticalCenter: parent.verticalCenter
             }
             visible: cusSearch.text.length > 0
-            btnImgNormal: CusConfig.imagePathPrefix + "Search_Clear.png"
+            btnImgNormal: "qrc:/Image/Button/btn_close_hovered.png"
+            btnImgHovered:"qrc:/Image/Button/btn_close_hovered.png"
+            btnImgPressed:"qrc:/Image/Button/btn_close_hovered.png"
 
             onClicked: {
                 cusSearch.clear()
