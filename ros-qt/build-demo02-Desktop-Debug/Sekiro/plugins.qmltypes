@@ -504,6 +504,18 @@ Module {
         }
     }
     Component {
+        file: "SekViewModel.h"
+        name: "SekViewModel"
+        accessSemantics: "reference"
+        prototype: "QObject"
+        interfaces: ["QQmlParserStatus"]
+        exports: ["Sekiro/SekViewModel 1.0"]
+        exportMetaObjectRevisions: [256]
+        Property { name: "scope"; type: "int"; notify: "scopeChanged"; index: 0 }
+        Signal { name: "scopeChanged" }
+        Signal { name: "initData" }
+    }
+    Component {
         file: "Def.h"
         name: "SekViewModelType"
         accessSemantics: "none"

@@ -1,0 +1,9 @@
+-rootPath
+/home/zjt/WORK_QT/ros-qt/demo02
+-cmake-output
+-output-file
+/home/zjt/WORK_QT/ros-qt/build-demo02-Desktop-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_rosqt.cmake
+-importPath
+/home/zjt/WORK_QT/ros-qt/build-demo02-Desktop-Debug
+-importPath
+/home/zjt/Qt/6.5.3/gcc_64/./qml

@@ -1,7 +1,7 @@
 import QtQuick
 import QtQuick.Controls
 import Qt5Compat.GraphicalEffects
-import Sekiro 1.0
+import Sekiro
 
 SekRectangle
 {

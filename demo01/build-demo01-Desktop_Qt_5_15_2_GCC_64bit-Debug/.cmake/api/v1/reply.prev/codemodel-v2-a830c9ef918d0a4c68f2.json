@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-a4f2a1a5005166292c82.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "demo01",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "demo01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo01-Debug-153c1e5ddddd2dd06468.json",
+					"name" : "demo01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo01_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo01_autogen-Debug-fe1d5050d01469d01531.json",
+					"name" : "demo01_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo01_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo01_autogen_timestamp_deps-Debug-69e3090f29338d5cbb9b.json",
+					"name" : "demo01_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo01_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo01_uninstall-Debug-685befd6d1d9b0a2a392.json",
+					"name" : "demo01_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-8f436408aa4d52ce9fc7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zjt/qtfile/qt5/demo01/build-demo01-Desktop_Qt_5_15_2_GCC_64bit-Debug",
+		"source" : "/home/zjt/qtfile/qt5/demo01/demo01"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
