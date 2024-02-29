@@ -100,12 +100,12 @@
         <file>TaoQuick/Images/Table_Asc_Hovered.png</file>
         <file>TaoQuick/Images/Table_Desc.png</file>
         <file>TaoQuick/Images/Table_Desc_Hovered.png</file>
-        <file>Contents/General/Buttons.qml</file>
+        <file>Contents/General/IMU.qml</file>
         <file>Contents/General/DataEntrys.qml</file>
         <file>Contents/General/Drags.qml</file>
         <file>Contents/General/EdgeTabBar.qml</file>
         <file>Contents/General/Images.qml</file>
-        <file>Contents/General/Labels.qml</file>
+        <file>Contents/General/GPS.qml</file>
         <file>Contents/General/ListViewWithTab.qml</file>
         <file>Contents/General/Miscs.qml</file>
         <file>Contents/General/RoundRects.qml</file>

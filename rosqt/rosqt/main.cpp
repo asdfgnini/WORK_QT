@@ -18,7 +18,8 @@ int main(int argc, char *argv[])
     engine.addImportPath(TaoQuickImportPath);
     engine.rootContext()->setContextProperty("taoQuickImportPath",TaoQuickImportPath);
 
-    qmlRegisterType<Interaction>("Interaction",1,0,"Interaction");
+    Interaction inter;
+    engine.rootContext()->setContextProperty("inter",&inter);
 
     const QUrl url(QStringLiteral("qrc:/main.qml"));
     QObject::connect(

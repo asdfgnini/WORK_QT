@@ -4,12 +4,21 @@ import TaoQuick 1.0
 Item {
     id: homeItem
     anchors.centerIn: parent
+    // CusLabel {
+    //     text: qsTr("TaoQuick provides a set of controls that can be used to build complete interfaces in Qt Quick.")
+    //     horizontalAlignment: Label.AlignHCenter
+    //     verticalAlignment: Label.AlignVCenter
+    //     wrapMode: Label.Wrap
+    //     anchors.centerIn: parent
+    // }
     CusLabel {
-        text: qsTr("TaoQuick provides a set of controls that can be used to build complete interfaces in Qt Quick.")
+        text: qsTr("这是一个基于ROS2通信的可视化界面")
         horizontalAlignment: Label.AlignHCenter
         verticalAlignment: Label.AlignVCenter
         wrapMode: Label.Wrap
         anchors.centerIn: parent
+        color: "#782c2c"
+        font.pixelSize: 40
     }
     property ListModel wizardModel: ListModel {
         ListElement {

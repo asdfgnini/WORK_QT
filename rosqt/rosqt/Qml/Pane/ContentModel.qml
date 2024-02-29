@@ -4,36 +4,36 @@ import QtQml.Models 2.1
 ListModel {
     id: demoModel
     ListElement {
-        name: "标签"
-        source: "General/Labels.qml"
+        name: "GPS"
+        source: "General/GPS.qml"
         visible: true
         group: "通用"
         groupOpen: true
     }
 
     ListElement {
-        name: "Button"
-        source: "General/Buttons.qml"
+        name: "IMU"
+        source: "General/IMU.qml"
         visible: true
         group: "通用"
         groupOpen: true
     }
 
 //***********************************************************************
-    ListElement {
-        name: "Undercurrent surge"
-        source: "Effect/Arrow.qml"
-        visible: true
-        group: "特效"
-        groupOpen: true
-    }
-    ListElement {
-        name: "Atom Joggle"
-        source: "Effect/EditJoggle.qml"
-        visible: true
-        group: "特效"
-        groupOpen: true
-    }
+    // ListElement {
+    //     name: "Undercurrent surge"
+    //     source: "Effect/Arrow.qml"
+    //     visible: true
+    //     group: "特效"
+    //     groupOpen: true
+    // }
+    // ListElement {
+    //     name: "Atom Joggle"
+    //     source: "Effect/EditJoggle.qml"
+    //     visible: true
+    //     group: "特效"
+    //     groupOpen: true
+    // }
 
     function updateSection(section, isOpen) {
         for (var i = 0; i < count; ++i) {

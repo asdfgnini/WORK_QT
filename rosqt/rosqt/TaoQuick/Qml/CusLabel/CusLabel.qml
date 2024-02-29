@@ -6,7 +6,7 @@ import "../.."
 Label {
     font.family: CusConfig.fontFamily
     font.pixelSize: CusConfig.fontPixel
-    color: CusConfig.textColor
+    color: "#282828"
     elide: Text.ElideRight
 //    renderType: Text.NativeRendering
     verticalAlignment: Text.AlignVCenter

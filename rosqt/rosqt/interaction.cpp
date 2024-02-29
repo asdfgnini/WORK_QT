@@ -12,10 +12,16 @@ void Interaction::start_ros()
     control.start();
 }
 
+QString Interaction::get_ros_value()
+{
+    return ros_value;
+}
+
+
 
 
 void Interaction::Receive_value(QString value)
 {
     qDebug() << "ros value: " <<  value;
-    emit ros_value(value);
+    ros_value = value;
 }

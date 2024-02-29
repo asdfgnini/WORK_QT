@@ -2,7 +2,7 @@ import QtQuick 2.15
 import QtQuick.Window 2.15
 import QtQuick.Controls 1.4
 
-import Interaction 1.0
+
 import TaoQuick 1.0
 
 import "./Qml/Dialog"
@@ -107,13 +107,10 @@ ApplicationWindow {
             bottom: parent.bottom
         }
     }
-    //C++ 交互接口
-    Interaction{
-        id:interaction
-    }
-    //本组件加载时运行任务
+
+    //本组件加载时运行ROS任务
     Component.onCompleted: {
-        interaction.start_ros()
+        inter.start_ros()
     }
 
 }

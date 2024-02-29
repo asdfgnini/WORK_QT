@@ -9,6 +9,8 @@ Worker::Worker(QObject *parent) : QObject(parent)
 {
     node = std::make_shared<TopicSubscribe01>("zjt_SubNode");
     command_subscribe_ = node->create_subscription<std_msgs::msg::String>("command", 10, std::bind(&Worker::command_callback, this, std::placeholders::_1));
+
+
 }
 
 void Worker::on_doSomething()
